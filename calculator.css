@@ -1,0 +1,70 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    animation: normal;
+    font-family:'Trebuchet MS';
+    position: fixed;
+}
+.box{
+    width: 500px;
+    padding: 40px;
+    margin-left: 10px;
+    margin-top: 280px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.box h1{
+    color:snow;
+    font-weight: 500;
+    transition:0.25s;
+}
+.box i{
+    font-weight: 200;
+}
+.box input[type="text"]{
+    border: 0px;
+    display: block;
+    text-align: right;
+   margin: 15px auto;
+    background: none;
+    padding: 20px 10px;
+    width: 277px; 
+    background-color: snow;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+    border-radius: 30px;
+    transition:0.25s;
+}
+.box input[type="button"]{
+    border: 0px;
+    display:inline;
+    margin:auto;
+    padding: 24px 10px;
+    background: none;
+    font-family:'Trebuchet MS';
+    font-size: 20px;
+    font-weight:100;
+    width: 70px;
+    background-color: snow;
+    border-radius: 48px;
+    transition: 0.25s;
+}
+
+.box input[type="button"]:hover{
+    background:orange;
+}
+
+.box h1:hover{
+    color:orange;
+}
+
+.box input[type="text"]:hover{
+    background-color: orange;
+}
+.box i:hover{
+    color:azure;
+    transition:0.25s;
+}

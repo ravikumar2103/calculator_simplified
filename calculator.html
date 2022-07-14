@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body background="C:\Users\RAVI KUMAR\Downloads\pinkabstract.jpg" style="background-size: cover;">
+    <form  name="form1" class="box" action="calculator.html" method="POST">
+        <h1><b>CALCULATOR</b></h1>
+        <input type="text" name="display" placeholder="0">
+        <input type="button" value="AC" onclick="form1.display.value=''"> <input type="button" value="DEL" onclick="form1.display.value=form1.display.value.substring(0,form1.display.value.length*1-1)"> <input type="button" value="%" onclick="form1.display.value+='%'"> <input type="button" value="/" onclick="form1.display.value+='/'"><br/>
+        <input type="button" value="7" onclick="form1.display.value+='7'"> <input type="button" value="8" onclick="form1.display.value+='8'"> <input type="button" value="9" onclick="form1.display.value+='9'"> <input type="button" value="x" onclick="form1.display.value+='*'"><br/>
+        <input type="button" value="4" onclick="form1.display.value+='4'"> <input type="button" value="5" onclick="form1.display.value+='5'"> <input type="button" value="6" onclick="form1.display.value+='6'"> <input type="button" value="-" onclick="form1.display.value+='-'"><br/>
+        <input type="button" value="1" onclick="form1.display.value+='1'"> <input type="button" value="2" onclick="form1.display.value+='2'"> <input type="button" value="3" onclick="form1.display.value+='3'"> <input type="button" value="+" onclick="form1.display.value+='+'"><br/>
+        <input type="button" value="00" onclick="form1.display.value+='00'"> <input type="button" value="0" onclick="form1.display.value+='0'"> <input type="button" value="." onclick="form1.display.value+='.'"> <input type="button" value="=" onclick="form1.display.value=eval(form1.display.value)"><br/><br/>
+        <i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; designed by ravi_kumar</i>
+    </form>  
+</body>
+</html>
